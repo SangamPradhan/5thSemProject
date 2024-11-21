@@ -1,9 +1,9 @@
 import React from "react";
-import Brand1 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/brands/1.svg';
-import Brand2 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/brands/2.svg';
-import Brand3 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/brands/3.svg';
-import Brand4 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/brands/4.svg';
-import Brand5 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/brands/5.svg';
+import Brand1 from '../../../assets/brands/1.svg';
+import Brand2 from '../../../assets/brands/2.svg';
+import Brand3 from '../../../assets/brands/3.svg';
+import Brand4 from '../../../assets/brands/4.svg';
+import Brand5 from '../../../assets/brands/5.svg';
 
 const BrandsLogo = () => {
   return (

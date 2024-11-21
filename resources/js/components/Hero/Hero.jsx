@@ -1,6 +1,6 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
-import yellowCar from 'D:/Xampp/htdocs/5thSemProject/resources/assets/website/team.png';
+import yellowCar from '../../../assets/website/team.png';
 
 const Hero = () => {
     return (

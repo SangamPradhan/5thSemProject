@@ -1,8 +1,7 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import Img1 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/blog/blog1.png';
-import Img2 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/blog/blog2.png';
-import Img3 from 'D:/Xampp/htdocs/5thSemProject/resources/assets/blog/blog3.png';
+import Img1 from '../../../assets/blog/blog1.png';
+
 
 const BlogsData = [
     {
@@ -16,7 +15,7 @@ const BlogsData = [
     },
     {
         id: 2,
-        image: Img2,
+        image: Img1,
         title: "Realtime analytics",
         description:
             "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
@@ -25,7 +24,7 @@ const BlogsData = [
     },
     {
         id: 3,
-        image: Img3,
+        image: Img1,
         title: "Realtime analytics",
         description:
             "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
