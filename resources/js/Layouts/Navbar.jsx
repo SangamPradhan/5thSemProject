@@ -22,13 +22,14 @@ const Navbar = () => {
                     <Link
                         href="/"
                         target="_blank"
-                        className="flex items-center gap-3"
+                        className="flex items-center gap-6" // Increased gap for more spacing
                     >
-                        <img src={Logo} alt="Logo" className="w-5" />
-                        <span className="text-2xl sm:text-3xl font-semibold">
+                        <img src={Logo} alt="Logo" className="w-7" />
+                        <span className="text-2xl sm:text-3xl font-semibold pl-0"> {/* Added padding */}
                             AI Solution
                         </span>
                     </Link>
+
                     {/* Desktop view Navigation */}
                     <nav className="hidden md:block">
                         <ul className="flex items-center gap-8">

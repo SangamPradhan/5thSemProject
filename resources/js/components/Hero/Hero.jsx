@@ -1,5 +1,4 @@
 import React from "react";
-import "slick-carousel/slick/slick.css";
 import yellowCar from '../../../assets/website/team.png';
 
 const Hero = () => {
@@ -12,7 +11,7 @@ const Hero = () => {
                         <img
                             src={yellowCar}
                             alt=""
-                            className="w-full sm:max-w-[280px] md:max-w-[430px]"
+                            className="w-full sm:max-w-[380px] md:max-w-[450px] ml-20"
                         />
                         <div
                             data-aos="slide-right"
@@ -26,10 +25,10 @@ const Hero = () => {
                     </div>
 
                     {/* Text section */}
-                    <div className="space-y-5 order-2 sm:order-1 xl:pr-40 ">
+                    <div className="space-y-5 order-2 sm:order-1 xl:pr-45 pl-10 sm:pl-13">
                         <h1
                             data-aos="fade-up"
-                            className="text-4xl sm:text-5xl font-semibold"
+                            className="text-4x sm:text-5xl font-semibold"
                             style={{ lineHeight: 1.2 }}
                         >
                             Building Brands in the{" "}
@@ -50,6 +49,7 @@ const Hero = () => {
                             Learn More
                         </button>
                     </div>
+
                 </div>
             </div>
         </div>

@@ -5,14 +5,15 @@ import Footer from '../../../resources/js/components/Footer/Footer.jsx';
 import Hero from '../../../resources/js/components/Hero/Hero.jsx';
 import Services from '../../../resources/js/components/Services/Services.jsx';
 import Testimonial from '../../../resources/js/components/Testimonial/Testimonial.jsx';
+
 const Home = () => {
     return (
         <>
             <Hero />
             <BrandsLogo />
             <Services />
-            <BlogsComp />
             <Testimonial />
+            <BlogsComp />
             <Footer />
         </>
     )

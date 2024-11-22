@@ -17,8 +17,8 @@ const Layout = ({ children }) => {
     return (
         <>
             {/* Header Section */}
-            <header className="relative z-10">
-                <div className="container mx-auto">
+            <header className="relative z-100 w-full">
+                <div className="w-full px-1">
                     {/* Navbar */}
                     <Navbar />
 
@@ -42,8 +42,9 @@ const Layout = ({ children }) => {
                 <ResponsiveMenu showMenu={showMenu} />
             </header>
 
+
             {/* Main Content */}
-            <main className="container mx-auto px-4 py-6">{children}</main>
+            <main className="w-full px-1 py-0">{children}</main>
         </>
     );
 };
