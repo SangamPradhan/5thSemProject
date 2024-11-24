@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa6';
+import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"; // Import necessary icons
 import Footer from '../components/Footer/Footer';
 // Assuming Footer component is in the same directory
 
@@ -71,20 +71,23 @@ const ContactPage = () => {
                     </div>
 
                     {/* Contact Info */}
-                    <div className="contact-info text-sm text-gray-700 ml-auto p-6 max-w-md">
+                    <div className="contact-info text-sm text-gray-700 ml-auto p-7 max-w-md">
                         <h3 className="text-2xl font-semibold mb-4">Contact Info</h3>
-                        <p className="text-base">
-                            <strong>Email: </strong>
+                        <p className="text-base flex items-center">
+                            <FaEnvelope className="mr-2 text-lg" />
+                            {/* <strong>Email: </strong> */}
                             contact@company.com
                         </p>
-                        <p className="text-base">
-                            <strong>Phone: </strong>
+                        <p className="text-base flex items-center">
+                            <FaPhoneAlt className="mr-2 text-lg" />
+                            {/* <strong>Phone: </strong> */}
                             +1 333 4040 5566
                         </p>
-                        <p className="text-base">
-                            <strong>Address: </strong>
-                            212 Barrington Court New York, ABC 10001, United States
+                        <p className="text-base flex items-center "> <FaMapMarkerAlt className="mr-2 text-lg" />
+                        {/* <strong>Address: </strong> */}
+                            212 Barrington New York, ABC 10001, United States
                         </p>
+
 
                         <div className="follow-us mt-8">
                             <h4 className="text-lg font-semibold mb-4">Follow Us On</h4>

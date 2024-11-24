@@ -10,3 +10,4 @@ Route::get('/', function () {
 
 
 Route::get('/contactpage', [HomeController::class, 'contactpage']);
+Route::get('/aboutus', [HomeController::class, 'aboutus']);

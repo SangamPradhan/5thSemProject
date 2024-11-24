@@ -1,6 +1,6 @@
 import React from "react";
-import BlogCard from "./BlogCard";
 import Img1 from '../../../assets/blog/blog1.png';
+import BlogCard from "./BlogCard";
 
 
 const BlogsData = [
@@ -37,7 +37,7 @@ const BlogsComp = () => {
     return (
         <>
             <div className="bg-gray-100 dark:bg-gray-900 dark:text-white py-10 pb-14">
-                <section data-aos="fade-up" className="container ">
+                <section data-aos="fade-up" className="container ml-10">
                     <h1 className="my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-semibold">
                         Our Blogs
                     </h1>

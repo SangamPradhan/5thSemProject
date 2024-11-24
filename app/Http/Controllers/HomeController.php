@@ -10,4 +10,8 @@ class HomeController extends Controller
     public function contactpage(){
         return Inertia::render('ContactPage');
     }
+
+    public function aboutus(){
+        return Inertia::render('AboutUs');
+    }
 }

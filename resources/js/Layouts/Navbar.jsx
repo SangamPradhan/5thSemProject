@@ -24,7 +24,7 @@ const Navbar = () => {
                         target="_blank"
                         className="flex items-center gap-6" // Increased gap for more spacing
                     >
-                        <img src={Logo} alt="Logo" className="w-7" />
+                        <img src={Logo} alt="Logo" className="w-7 ml-5" />
                         <span className="text-2xl sm:text-3xl font-semibold pl-0"> {/* Added padding */}
                             AI Solution
                         </span>
@@ -32,10 +32,10 @@ const Navbar = () => {
 
                     {/* Desktop view Navigation */}
                     <nav className="hidden md:block">
-                        <ul className="flex items-center gap-8">
-                            <li className="py-4">
+                        <ul className="flex items-center gap-7 mr-0">
+                            <li className="py-5">
                                 <Link
-                                    href="about"
+                                    href="aboutus"
                                     className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
                                 >
                                     About
@@ -43,7 +43,7 @@ const Navbar = () => {
                             </li>
                             <li className="py-4">
                                 <Link
-                                    href="/#services"
+                                    href="/services"
                                     className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
                                 >
                                     Services
@@ -51,20 +51,37 @@ const Navbar = () => {
                             </li>
                             <li className="py-4">
                                 <Link
-                                    href="/#projects"
+                                    href="/projects"
                                     className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
                                 >
                                     Projects
                                 </Link>
                             </li>
+
                             <li>
-                                <button className="primary-btn">Get in Touch</button>
+                            <Link
+                                href="/events"
+                                className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
+                                >
+                                    Events
+                                </Link>
                             </li>
+
                             <li>
-                                <DarkMode />
+                            <Link
+                                href="/gallery"
+                                className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
+                                >
+                                    Gallery
+                                </Link>
+                            </li>
+
+                            <li>
+                                <button className="primary-btn"> <Link href="/contactpage">Contact Us</Link> </button>
                             </li>
                         </ul>
                     </nav>
+
                     {/* Mobile view Drawer */}
                     <div className="flex items-center gap-4 md:hidden">
                         <DarkMode />
