@@ -60,7 +60,7 @@ const Navbar = () => {
 
                             <li>
                             <Link
-                                href="/events"
+                                href="/event"
                                 className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
                                 >
                                     Events

@@ -14,4 +14,12 @@ class HomeController extends Controller
     public function aboutus(){
         return Inertia::render('AboutUs');
     }
+
+    public function gallery(){
+        return Inertia::render('Gallery');
+    }
+
+    public function event(){
+        return Inertia::render('Events');
+    }
 }
