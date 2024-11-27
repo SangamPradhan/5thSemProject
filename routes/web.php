@@ -13,3 +13,4 @@ Route::get('/contactpage', [HomeController::class, 'contactpage']);
 Route::get('/aboutus', [HomeController::class, 'aboutus']);
 Route::get('/gallery', [HomeController::class, 'gallery']);
 Route::get('/event', [HomeController::class, 'event']);
+Route::get('/project', [HomeController::class, 'project']);

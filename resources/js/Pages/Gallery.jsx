@@ -43,7 +43,7 @@ const Gallery = () => {
                 <p className="text-white text-lg font-medium mb-6">Following Event Pictures</p>
 
                 {/* Instagram Post Grid */}
-                <ul className="grid grid-cols-4 gap-6">
+                <ul className="grid grid-cols-4 gap-10" style={{ gap: "12px" }}>
                     {instaPosts.map((post, index) => (
                         <li key={index}>
                             <button
@@ -101,6 +101,7 @@ const Gallery = () => {
                     </ul>
                 </div>
             </div>
+            <br />
 
             {/* Footer Section */}
             <Footer />

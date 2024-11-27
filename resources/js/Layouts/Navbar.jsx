@@ -41,17 +41,10 @@ const Navbar = () => {
                                     About
                                 </Link>
                             </li>
+
                             <li className="py-4">
                                 <Link
-                                    href="/services"
-                                    className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
-                                >
-                                    Services
-                                </Link>
-                            </li>
-                            <li className="py-4">
-                                <Link
-                                    href="/projects"
+                                    href="/project"
                                     className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500"
                                 >
                                     Projects
